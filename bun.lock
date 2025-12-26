@@ -14,7 +14,7 @@
         "typescript": "^5",
       },
     },
-    "apps/web/hungr-frontend": {
+    "apps/web": {
       "name": "hungr-frontend",
       "version": "0.0.1",
       "devDependencies": {
@@ -317,7 +317,7 @@
 
     "has-flag": ["has-flag@4.0.0", "", {}, "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="],
 
-    "hungr-frontend": ["hungr-frontend@workspace:apps/web/hungr-frontend"],
+    "hungr-frontend": ["hungr-frontend@workspace:apps/web"],
 
     "ignore": ["ignore@5.3.2", "", {}, "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g=="],
 
