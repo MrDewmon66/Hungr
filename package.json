@@ -8,5 +8,14 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "dependencies": {
+    "turbo": "^2.7.2"
+  },
+  "packageManager": "bun@1.2.0",
+  "workspaces": [
+    "apps/**",
+    "packages/**"
+  ]
+
 }
